@@ -9,7 +9,7 @@ export class DonaComponent {
   @Input() title: string = 'Sin título';
   @Input() data2: number[] = [350, 450, 100];
   @Input() labelsTienda1: string = 'Tienda 1';
-  @Input() labelsTienda2: string = 'Tienda 2';
+  @Input() labelsTienda2: string = 'Tienda 2';//Para los datos
   @Input() labelsTienda3: string = 'Tienda 3';
 
 
