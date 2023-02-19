@@ -18,7 +18,4 @@ export class PagesComponent implements OnInit {
     //recuperar el tema guardado en el localstorage
     customInitFunctions();
   }
-
-
-
 }
