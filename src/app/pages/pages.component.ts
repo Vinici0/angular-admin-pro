@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { SettingService } from '../service/setting.service';
+import { SettingService } from '../services/setting.service';
 
-declare function customInitFunctions(): void;
+declare function customInitFunction(): void;
 
 @Component({
   selector: 'app-pages',
@@ -16,6 +16,6 @@ export class PagesComponent implements OnInit {
 
   ngOnInit() {
     //recuperar el tema guardado en el localstorage
-    customInitFunctions();
+    customInitFunction();
   }
 }

@@ -24,7 +24,7 @@ export class BreadcrumbsComponent  implements OnDestroy{
   }
 
   ngOnDestroy(): void {
-    this.tituloSub$.unsubscribe(); //Es importante cancelar la subscripcion y no generar un memory leak
+    this.tituloSub$.unsubscribe(); //Es importante cancelar la subscripcion y no generar
   }
 
   getArgumentosRuta() {
