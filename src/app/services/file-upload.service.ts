@@ -14,6 +14,10 @@ export class FileUploadService {
     tipo: 'usuarios' | 'medicos' | 'hospitales',
     id: string
   ) {
+    console.log('-----------------------------');
+
+    console.log(archivo, tipo, id);
+
     try {
       const url = `${base_url}/upload/${tipo}/${id}`;
       //Para poder enviar un archivo a traves de un fetch, se debe crear un objeto de tipo FormData

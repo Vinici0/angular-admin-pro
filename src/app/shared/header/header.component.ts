@@ -14,7 +14,7 @@ const base_url = environment.base_url;
 export class HeaderComponent{
 
   public usuario: Usuario;
-  public patImg = `${base_url}/upload/usuarios/`;
+  // public patImg = `${base_url}/upload/usuarios/`;
   constructor(
     private usuarioService: UsuarioService
   ) {

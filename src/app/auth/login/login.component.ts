@@ -104,7 +104,6 @@ export class LoginComponent implements AfterViewInit {
     await this.usuarioService.googleInit();
     this.auth2 = this.usuarioService.auth2;
     // this.attachSignin( document.getElementById('my-signin2') );
-
   };
 
   // attachSignin(element: any) {

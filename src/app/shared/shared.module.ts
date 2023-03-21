@@ -15,7 +15,7 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule//Sirve para poder utilizar el routerLink en los componentes
   ],
   exports: [
     BreadcrumbsComponent,
