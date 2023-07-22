@@ -7,7 +7,7 @@ import { ChartData, ChartEvent, ChartType } from 'chart.js';
 })
 export class DonaComponent {
   @Input() title: string = 'Sin título';
-  @Input() data2: number[] = [350, 450, 100];
+  @Input() data2: number[] = [450, 450, 1000];
   @Input() labelsTienda1: string = 'Tienda 1';
   @Input() labelsTienda2: string = 'Tienda 2';//Para los datos
   @Input() labelsTienda3: string = 'Tienda 3';
