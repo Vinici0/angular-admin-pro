@@ -1,6 +1,6 @@
 # Proyecto Admin en Angular
 
-Este proyecto es una aplicación de administración en Angular que permite el registro y gestión de médicos, hospitales y usuarios.
+Este proyecto es una aplicación de administración en Angular que permite el registro y gestión de médicos, hospitales y usuarios. 
 
 ## Tecnologías utilizadas
 En este proyecto se han utilizado las siguientes tecnologías:
