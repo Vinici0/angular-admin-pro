@@ -26,6 +26,7 @@ Para instalar el proyecto, sigue estos pasos:
 <li>Inicia la aplicación con <b>ng serve</b></li>
 </ol>
 
+
 ¡Y listo! La aplicación estará disponible en http://localhost:4200.
 
 ## Autor
